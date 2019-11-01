@@ -25,7 +25,7 @@ namespace WILL_Project
         // Selecting a Trip -----------------
         public SqlDataReader SelectTrip() // may need to delete
         {
-            
+            //Added a comment
             String sql = "select * from Trip where Status = 'Stationary'";
             SqlCommand cmd = new SqlCommand(sql, con);
             SqlDataReader myReader;
